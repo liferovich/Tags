@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #fff;
+}
+h1 {
+    font-size: 2rem;
+}
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.page {
+    padding: 3rem 0;
+}
+.form__group {
+    display: flex;
+    margin-bottom: 15px;
+}
+.tag__form {
+    margin-bottom: 25px;
+}
+.tag__input {
+    padding: 10px;
+    width: 75%;
+}
+.btn__add {
+    width: 20%;
+    margin-left: 5%;
+    font-weight: 600;
+}
+.readonly__input {
+    position: relative;
+    top: 3px;
+}
+.readonly__input + label {
+    padding-left: 10px;
+}
+.tag__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.tag__text,
+.tag__btns button {
+    line-height: 30px;
+}
+.tag__btns button {
+    padding: 0 10px;
+}
+.btn__newlist {
+    padding: 8px 10px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+}
